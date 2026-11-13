@@ -33,7 +33,7 @@ export default function PortfolioCard({
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
       transition={{ duration: 0.3 }}
-      className="bg-muted/40 border border-border rounded-2xl overflow-hidden hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 group flex flex-col"
+      className="bg-white border border-border rounded-2xl overflow-hidden hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 group flex flex-col"
     >
       <div className="p-6 border-b border-border/50">
         <div className="flex items-start justify-between gap-3 mb-4">

@@ -19,7 +19,7 @@ const clientsByIndustry = [
   {
     icon: Heart,
     sector: 'Healthcare',
-    color: 'text-rose-400',
+    color: 'text-rose-600',
     bg: 'bg-rose-500/10',
     border: 'border-rose-500/20',
     clients: [
@@ -31,7 +31,7 @@ const clientsByIndustry = [
   {
     icon: GraduationCap,
     sector: 'Higher Education',
-    color: 'text-blue-400',
+    color: 'text-blue-600',
     bg: 'bg-blue-500/10',
     border: 'border-blue-500/20',
     clients: [
@@ -42,7 +42,7 @@ const clientsByIndustry = [
   {
     icon: Landmark,
     sector: 'Government & Public Sector',
-    color: 'text-amber-400',
+    color: 'text-amber-600',
     bg: 'bg-amber-500/10',
     border: 'border-amber-500/20',
     clients: [
@@ -53,7 +53,7 @@ const clientsByIndustry = [
   {
     icon: Globe,
     sector: 'Retail & Commerce',
-    color: 'text-emerald-400',
+    color: 'text-emerald-600',
     bg: 'bg-emerald-500/10',
     border: 'border-emerald-500/20',
     clients: [
@@ -63,7 +63,7 @@ const clientsByIndustry = [
   {
     icon: Building2,
     sector: 'Technology & Staffing',
-    color: 'text-purple-400',
+    color: 'text-purple-600',
     bg: 'bg-purple-500/10',
     border: 'border-purple-500/20',
     clients: [
@@ -133,7 +133,7 @@ export default function ClientsPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-16 bg-muted/30 border-y border-border">
+      <section className="py-16 bg-white border-y border-border">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
             {stats.map((s) => (
@@ -189,7 +189,7 @@ export default function ClientsPage() {
                     <motion.div
                       key={client.name}
                       whileHover={{ x: 4 }}
-                      className={`bg-muted/30 border ${group.border} hover:border-primary/40 rounded-xl p-6 transition-all`}
+                      className={`bg-white border ${group.border} hover:border-primary/40 rounded-xl p-6 transition-all`}
                     >
                       <h4 className="text-lg font-bold text-foreground mb-2">{client.name}</h4>
                       <p className="text-sm text-foreground/70 leading-relaxed">{client.desc}</p>
@@ -225,7 +225,7 @@ export default function ClientsPage() {
                   key={c.client}
                   variants={itemVariants}
                   whileHover={{ y: -5 }}
-                  className="bg-background border border-border hover:border-primary/50 rounded-2xl p-8 transition-all"
+                  className="bg-white border border-border hover:border-primary/50 rounded-2xl p-8 transition-all"
                 >
                   <div className="text-xs font-semibold text-primary uppercase tracking-widest mb-4">{c.industry}</div>
                   <div className="text-4xl font-bold text-primary mb-3">{c.result}</div>

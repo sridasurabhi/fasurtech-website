@@ -56,7 +56,7 @@ export default function PublicSectorPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <FileText className="w-10 h-10 text-primary mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Legacy Systems</h3>
@@ -67,7 +67,7 @@ export default function PublicSectorPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <Users className="w-10 h-10 text-primary mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Citizen Expectations</h3>
@@ -78,7 +78,7 @@ export default function PublicSectorPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <Shield className="w-10 h-10 text-primary mb-4" />
               <h3 className="text-xl font-bold mb-3 text-foreground">Security & Compliance</h3>
@@ -100,7 +100,7 @@ export default function PublicSectorPage() {
           <div className="max-w-5xl mx-auto space-y-8">
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -125,7 +125,7 @@ export default function PublicSectorPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -150,7 +150,7 @@ export default function PublicSectorPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -175,7 +175,7 @@ export default function PublicSectorPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -244,7 +244,7 @@ export default function PublicSectorPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="bg-muted/30 border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+                  className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
                 >
                   <h3 className="text-xl font-bold mb-2 text-foreground">{useCase.title}</h3>
                   <p className="text-foreground/70">{useCase.desc}</p>

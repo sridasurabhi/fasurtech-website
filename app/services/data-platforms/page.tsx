@@ -55,7 +55,7 @@ export default function DataPlatformsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <RefreshCw className="w-6 h-6 text-primary" />
@@ -68,7 +68,7 @@ export default function DataPlatformsPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Database className="w-6 h-6 text-primary" />
@@ -81,7 +81,7 @@ export default function DataPlatformsPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <TrendingUp className="w-6 h-6 text-primary" />
@@ -94,7 +94,7 @@ export default function DataPlatformsPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Lock className="w-6 h-6 text-primary" />
@@ -118,7 +118,7 @@ export default function DataPlatformsPage() {
           <div className="max-w-5xl mx-auto space-y-6">
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Real-Time Data Fabric</h3>
               <p className="text-foreground/70 mb-4">
@@ -136,7 +136,7 @@ export default function DataPlatformsPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Autonomous Data Engineering</h3>
               <p className="text-foreground/70 mb-4">
@@ -154,7 +154,7 @@ export default function DataPlatformsPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Intelligent Data Lakes</h3>
               <p className="text-foreground/70 mb-4">
@@ -172,7 +172,7 @@ export default function DataPlatformsPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Legacy Modernization</h3>
               <p className="text-foreground/70 mb-4">
@@ -203,7 +203,7 @@ export default function DataPlatformsPage() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">Cloud-Native Architecture</h3>
                 <ul className="space-y-2">
                   {['AWS, Azure, Google Cloud', 'Kubernetes orchestration', 'Serverless computing', 'Auto-scaling infrastructure'].map((tech, i) => (
@@ -215,7 +215,7 @@ export default function DataPlatformsPage() {
                 </ul>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">Data Processing</h3>
                 <ul className="space-y-2">
                   {['Apache Spark, Flink', 'dbt for transformations', 'Real-time streaming', 'Event-driven pipelines'].map((tech, i) => (
@@ -227,7 +227,7 @@ export default function DataPlatformsPage() {
                 </ul>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">AI & ML</h3>
                 <ul className="space-y-2">
                   {['LangChain, LlamaIndex', 'Vector databases', 'MLOps platforms', 'AutoML capabilities'].map((tech, i) => (
@@ -239,7 +239,7 @@ export default function DataPlatformsPage() {
                 </ul>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">Enterprise Integration</h3>
                 <ul className="space-y-2">
                   {['Oracle E-Business Suite', 'PeopleSoft connectors', 'API gateways', 'Event mesh'].map((tech, i) => (

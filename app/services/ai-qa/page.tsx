@@ -60,7 +60,7 @@ export default function AIQAPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-primary" />
@@ -73,7 +73,7 @@ export default function AIQAPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Bug className="w-6 h-6 text-primary" />
@@ -86,7 +86,7 @@ export default function AIQAPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <TestTube className="w-6 h-6 text-primary" />
@@ -99,7 +99,7 @@ export default function AIQAPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <TrendingUp className="w-6 h-6 text-primary" />
@@ -123,7 +123,7 @@ export default function AIQAPage() {
           <div className="max-w-5xl mx-auto space-y-6">
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Intelligent Functional Testing</h3>
               <p className="text-foreground/70 mb-4">
@@ -141,7 +141,7 @@ export default function AIQAPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">AI Performance Testing</h3>
               <p className="text-foreground/70 mb-4">
@@ -159,7 +159,7 @@ export default function AIQAPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Security & Compliance Testing</h3>
               <p className="text-foreground/70 mb-4">
@@ -177,7 +177,7 @@ export default function AIQAPage() {
 
             <motion.div
               whileHover={{ x: 5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
             >
               <h3 className="text-2xl font-bold mb-4 text-foreground">Testing as a Service (TaaS)</h3>
               <p className="text-foreground/70 mb-4">
@@ -205,7 +205,7 @@ export default function AIQAPage() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">Oracle E-Business Testing</h3>
                 <p className="text-foreground/70 mb-4">
                   Deep expertise in Oracle E-Business Suite testing, now enhanced with AI for regression testing, upgrade validation, and integration testing.
@@ -220,7 +220,7 @@ export default function AIQAPage() {
                 </ul>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">PeopleSoft QA</h3>
                 <p className="text-foreground/70 mb-4">
                   Comprehensive PeopleSoft testing services powered by AI agents that understand complex business processes and configurations.
@@ -235,7 +235,7 @@ export default function AIQAPage() {
                 </ul>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">Modern Application Testing</h3>
                 <p className="text-foreground/70 mb-4">
                   Cloud-native application testing with AI-powered test generation for microservices, containers, and serverless architectures.
@@ -250,7 +250,7 @@ export default function AIQAPage() {
                 </ul>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4 text-primary">Mobile & Web Testing</h3>
                 <p className="text-foreground/70 mb-4">
                   Intelligent testing across devices and browsers with AI-powered visual validation and user experience monitoring.
@@ -290,7 +290,7 @@ export default function AIQAPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="bg-muted/30 border border-border rounded-xl p-6"
+                  className="bg-white border border-border rounded-xl p-6"
                 >
                   <h3 className="text-xl font-bold mb-2 text-primary">{benefit.title}</h3>
                   <p className="text-foreground/70">{benefit.desc}</p>

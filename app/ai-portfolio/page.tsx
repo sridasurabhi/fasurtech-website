@@ -193,7 +193,7 @@ export default function AIPortfolioPage() {
             viewport={{ once: true }}
             className="mt-20 text-center"
           >
-            <div className="inline-block bg-muted/50 border border-border rounded-2xl px-10 py-10 max-w-xl">
+            <div className="inline-block bg-white border border-border rounded-2xl px-10 py-10 max-w-xl">
               <h2 className="text-2xl font-bold text-foreground mb-3">Have a Similar Challenge?</h2>
               <p className="text-foreground/60 mb-6">
                 These systems were built for real enterprises facing real bottlenecks. Let's talk about yours.

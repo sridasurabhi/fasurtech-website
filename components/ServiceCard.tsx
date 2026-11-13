@@ -1,60 +1,32 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { LucideIcon } from 'lucide-react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, LucideIcon } from 'lucide-react';
 
 interface ServiceCardProps {
   title: string;
   description: string;
   icon: LucideIcon;
   href: string;
-  gradient?: string;
+  gradient?: string; // kept for API compatibility with existing pages
 }
 
-export default function ServiceCard({
-  title,
-  description,
-  icon: Icon,
-  href,
-  gradient = 'from-primary to-secondary',
-}: ServiceCardProps) {
+export default function ServiceCard({ title, description, icon: Icon, href }: ServiceCardProps) {
   return (
-    <Link href={href}>
-      <motion.div
-        whileHover={{ y: -8, scale: 1.02 }}
-        className="group relative h-full bg-muted border border-border rounded-xl p-8 overflow-hidden cursor-pointer transition-all hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10"
-      >
-        {/* Gradient overlay on hover */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-
-        <div className="relative z-10 space-y-4">
-          {/* Icon */}
-          <div className={`w-14 h-14 rounded-lg bg-gradient-to-br ${gradient} flex items-center justify-center group-hover:scale-110 transition-transform`}>
-            <Icon className="w-7 h-7 text-background" />
-          </div>
-
-          {/* Title */}
-          <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
-            {title}
-          </h3>
-
-          {/* Description */}
-          <p className="text-foreground/70 leading-relaxed">
-            {description}
-          </p>
-
-          {/* Arrow */}
-          <div className="flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform">
-            <span className="mr-2">Learn More</span>
-            <ArrowRight className="w-5 h-5" />
-          </div>
-        </div>
-
-        {/* Corner accent */}
-        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/20 to-transparent rounded-bl-full transform translate-x-16 -translate-y-16 group-hover:translate-x-12 group-hover:-translate-y-12 transition-transform" />
-      </motion.div>
+    <Link
+      href={href}
+      className="group relative flex h-full flex-col bg-white p-8 transition-colors hover:bg-muted/60"
+    >
+      <span className="absolute inset-x-0 top-0 h-0.5 bg-primary origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+      <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-md bg-footer text-white transition-colors group-hover:bg-primary">
+        <Icon className="h-6 w-6" strokeWidth={1.75} />
+      </div>
+      <h3 className="mb-3 text-xl font-semibold text-foreground">{title}</h3>
+      <p className="mb-6 flex-1 text-[15px] leading-relaxed text-slate-600">{description}</p>
+      <span className="inline-flex items-center gap-2 text-sm font-semibold text-primary">
+        Learn more
+        <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+      </span>
     </Link>
   );
 }

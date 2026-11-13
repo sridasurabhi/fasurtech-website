@@ -55,7 +55,7 @@ export default function MultiAgentPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
             >
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                 <Network className="w-6 h-6 text-secondary" />
@@ -68,7 +68,7 @@ export default function MultiAgentPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
             >
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                 <GitBranch className="w-6 h-6 text-secondary" />
@@ -81,7 +81,7 @@ export default function MultiAgentPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
             >
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-secondary" />
@@ -94,7 +94,7 @@ export default function MultiAgentPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-secondary/50 transition-all"
             >
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
                 <Shield className="w-6 h-6 text-secondary" />
@@ -119,7 +119,7 @@ export default function MultiAgentPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="bg-muted/30 border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
+                className="bg-white border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
               >
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Customer Service Automation</h3>
                 <p className="text-foreground/70 mb-4">
@@ -137,7 +137,7 @@ export default function MultiAgentPage() {
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="bg-muted/30 border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
+                className="bg-white border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
               >
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Document Processing</h3>
                 <p className="text-foreground/70 mb-4">
@@ -155,7 +155,7 @@ export default function MultiAgentPage() {
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="bg-muted/30 border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
+                className="bg-white border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
               >
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Supply Chain Optimization</h3>
                 <p className="text-foreground/70 mb-4">
@@ -173,7 +173,7 @@ export default function MultiAgentPage() {
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="bg-muted/30 border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
+                className="bg-white border border-border rounded-xl p-8 hover:border-secondary/50 transition-all"
               >
                 <h3 className="text-2xl font-bold mb-4 text-foreground">DevOps & IT Operations</h3>
                 <p className="text-foreground/70 mb-4">
@@ -202,28 +202,28 @@ export default function MultiAgentPage() {
             </h2>
 
             <div className="space-y-6">
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-2 text-secondary">Modular Design</h3>
                 <p className="text-foreground/70">
                   Build agents as composable, reusable components that can be easily combined and reconfigured for different use cases.
                 </p>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-2 text-secondary">Event-Driven Communication</h3>
                 <p className="text-foreground/70">
                   Agents communicate through standardized message protocols, enabling loose coupling and flexible orchestration patterns.
                 </p>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-2 text-secondary">Centralized Monitoring</h3>
                 <p className="text-foreground/70">
                   Comprehensive observability into agent behavior, decision-making, and performance with real-time dashboards and analytics.
                 </p>
               </div>
 
-              <div className="bg-background border border-border rounded-xl p-6">
+              <div className="bg-white border border-border rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-2 text-secondary">Scalable Infrastructure</h3>
                 <p className="text-foreground/70">
                   Cloud-native architecture that scales agent teams dynamically based on workload demand and business requirements.

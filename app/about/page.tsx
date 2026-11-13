@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Target, Users, Lightbulb, Award, ArrowRight, CheckCircle2, Building2 } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
@@ -33,7 +34,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-16 bg-muted/30 border-y border-border">
+      <section className="py-16 bg-white border-y border-border">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
             {[
@@ -52,6 +53,21 @@ export default function AboutPage() {
                 <div className="text-sm text-foreground/60">{s.label}</div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Oracle Partnership */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <Image src="/brand/oracle-silver-partner.png" alt="Oracle Silver Partner" width={771} height={123} className="h-16 w-auto shrink-0" />
+            <div>
+              <h2 className="text-2xl font-bold mb-2 text-foreground">Oracle Silver Partner</h2>
+              <p className="text-foreground/80">
+                FaSur is a member of Oracle PartnerNetwork at the Silver level. Our consultants support Oracle E-Business Suite, PeopleSoft, Fusion Middleware and Endeca for enterprise clients in healthcare, higher education, government and retail.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -80,7 +96,7 @@ export default function AboutPage() {
       </section>
 
       {/* Client Logos Section */}
-      <section className="py-16 bg-muted/30 border-y border-border">
+      <section className="py-16 bg-white border-y border-border">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
@@ -97,7 +113,7 @@ export default function AboutPage() {
               ].map((name) => (
                 <span
                   key={name}
-                  className="px-4 py-2 bg-background border border-border rounded-full text-sm text-foreground/70 font-medium hover:border-primary/40 hover:text-foreground transition-all"
+                  className="px-4 py-2 bg-white border border-border rounded-full text-sm text-foreground/70 font-medium hover:border-primary/40 hover:text-foreground transition-all"
                 >
                   {name}
                 </span>
@@ -117,7 +133,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
             >
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Target className="w-8 h-8 text-primary" />
@@ -130,7 +146,7 @@ export default function AboutPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
             >
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Lightbulb className="w-8 h-8 text-primary" />
@@ -143,7 +159,7 @@ export default function AboutPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
             >
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-primary" />
@@ -156,7 +172,7 @@ export default function AboutPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-muted/30 border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-8 text-center hover:border-primary/50 transition-all"
             >
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-primary" />
@@ -242,7 +258,7 @@ export default function AboutPage() {
                 <motion.div
                   key={i}
                   whileHover={{ scale: 1.05 }}
-                  className="bg-muted/30 border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+                  className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
                 >
                   <h3 className="text-xl font-bold mb-2 text-foreground">{industry.name}</h3>
                   <p className="text-foreground/70">{industry.desc}</p>

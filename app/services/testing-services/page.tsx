@@ -120,7 +120,7 @@ export default function TestingServicesPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-16 bg-muted/30 border-y border-border">
+      <section className="py-16 bg-white border-y border-border">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
             {stats.map((s) => (
@@ -168,7 +168,7 @@ export default function TestingServicesPage() {
                 key={svc.title}
                 variants={itemVariants}
                 whileHover={{ y: -6 }}
-                className="relative bg-muted/30 border border-border hover:border-primary/50 rounded-2xl p-8 transition-all"
+                className="relative bg-white border border-border hover:border-primary/50 rounded-2xl p-8 transition-all"
               >
                 {svc.badge && (
                   <div className="absolute -top-3 left-6 px-3 py-1 bg-primary text-background text-xs font-bold rounded-full">
@@ -216,7 +216,7 @@ export default function TestingServicesPage() {
                 <motion.div
                   key={m.step}
                   variants={itemVariants}
-                  className="bg-background/50 border border-border rounded-xl p-6 hover:border-primary/40 transition-all"
+                  className="bg-white border border-border rounded-xl p-6 hover:border-primary/40 transition-all"
                 >
                   <div className="text-4xl font-bold text-primary/20 mb-3">{m.step}</div>
                   <h3 className="text-lg font-bold text-foreground mb-2">{m.title}</h3>
@@ -262,7 +262,7 @@ export default function TestingServicesPage() {
             </motion.div>
 
             <motion.div variants={itemVariants}>
-              <div className="bg-muted/30 border border-border rounded-2xl p-8">
+              <div className="bg-white border border-border rounded-2xl p-8">
                 <h3 className="text-xl font-bold text-foreground mb-4">Tools & Platforms</h3>
                 <p className="text-sm text-foreground/70 mb-6">
                   We leverage both open-source and enterprise-grade tools — and our clients can access our infrastructure directly via TaaS, eliminating setup time and cost.
@@ -274,7 +274,7 @@ export default function TestingServicesPage() {
                   ].map((tool) => (
                     <div
                       key={tool}
-                      className="px-3 py-2 bg-background/50 border border-border rounded-lg text-sm text-foreground/80 text-center"
+                      className="px-3 py-2 bg-white border border-border rounded-lg text-sm text-foreground/80 text-center"
                     >
                       {tool}
                     </div>
@@ -287,7 +287,7 @@ export default function TestingServicesPage() {
       </section>
 
       {/* AI Bridge */}
-      <section className="py-16 bg-muted/30 border-y border-primary/20">
+      <section className="py-16 bg-white border-y border-primary/20">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full mb-6">

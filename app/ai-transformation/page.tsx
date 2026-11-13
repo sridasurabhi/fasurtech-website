@@ -74,7 +74,7 @@ const timelineEvents = [
     title: 'First Production AI Systems',
     description:
       'First 3 production AI systems deployed: automated compliance audit engine, contract lifecycle RAG, and enterprise knowledge base.',
-    color: 'from-emerald-500 to-primary',
+    color: 'from-primary to-secondary',
     dot: 'bg-primary',
   },
   {
@@ -275,7 +275,7 @@ export default function AITransformationPage() {
                 <motion.div
                   key={item.label}
                   variants={itemVariants}
-                  className="bg-background border border-border rounded-xl p-5 text-center hover:border-primary/30 transition-colors"
+                  className="bg-white border border-border rounded-xl p-5 text-center hover:border-primary/30 transition-colors"
                 >
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
                     <item.icon className="w-5 h-5 text-primary" />
@@ -288,7 +288,7 @@ export default function AITransformationPage() {
 
             <motion.div
               variants={itemVariants}
-              className="mt-10 bg-background border border-border/50 rounded-2xl p-8 text-center"
+              className="mt-10 bg-white border border-border/50 rounded-2xl p-8 text-center"
             >
               <p className="text-foreground/70 text-lg max-w-3xl mx-auto">
                 Clients like{' '}
@@ -334,7 +334,7 @@ export default function AITransformationPage() {
                       className={`absolute top-6 left-1/2 -translate-x-1/2 w-5 h-5 rounded-full ${event.dot} ring-4 ring-background z-10`}
                     />
 
-                    <div className="bg-muted/50 border border-border rounded-xl p-4 hover:border-primary/30 transition-colors">
+                    <div className="bg-white border border-border rounded-xl p-4 hover:border-primary/30 transition-colors">
                       <div
                         className={`text-xs font-bold bg-gradient-to-r ${event.color} bg-clip-text text-transparent mb-1`}
                       >
@@ -363,7 +363,7 @@ export default function AITransformationPage() {
                     <div className={`w-4 h-4 rounded-full ${event.dot} ring-4 ring-background flex-shrink-0 mt-1`} />
                     <div className="w-0.5 bg-border flex-1 mt-2" />
                   </div>
-                  <div className="bg-muted/50 border border-border rounded-xl p-4 flex-1 mb-2">
+                  <div className="bg-white border border-border rounded-xl p-4 flex-1 mb-2">
                     <div
                       className={`text-sm font-bold bg-gradient-to-r ${event.color} bg-clip-text text-transparent mb-0.5`}
                     >
@@ -417,7 +417,7 @@ export default function AITransformationPage() {
                 <motion.div
                   key={item.title}
                   variants={itemVariants}
-                  className="bg-background border border-border rounded-xl p-6 text-left hover:border-primary/30 transition-colors"
+                  className="bg-white border border-border rounded-xl p-6 text-left hover:border-primary/30 transition-colors"
                 >
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <item.icon className="w-5 h-5 text-primary" />
@@ -457,7 +457,7 @@ export default function AITransformationPage() {
                 <motion.div
                   key={idx}
                   variants={itemVariants}
-                  className="grid grid-cols-2 gap-4 bg-muted/30 border border-border rounded-xl overflow-hidden hover:border-primary/20 transition-colors"
+                  className="grid grid-cols-2 gap-4 bg-white border border-border rounded-xl overflow-hidden hover:border-primary/20 transition-colors"
                 >
                   <div className="px-5 py-4 flex items-center gap-3">
                     <item.icon className="w-4 h-4 text-foreground/30 flex-shrink-0" />
@@ -496,7 +496,7 @@ export default function AITransformationPage() {
                   key={idx}
                   variants={itemVariants}
                   whileHover={{ y: -4 }}
-                  className="bg-background border border-border rounded-xl p-6 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all"
+                  className="bg-white border border-border rounded-xl p-6 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all"
                 >
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <adv.icon className="w-5 h-5 text-primary" />

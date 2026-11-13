@@ -238,7 +238,7 @@ export default function ManagedServicesPage() {
                 ].map((item) => (
                   <div
                     key={item.label}
-                    className="bg-background/50 border border-border rounded-xl p-5 hover:border-primary/40 transition-all"
+                    className="bg-white border border-border rounded-xl p-5 hover:border-primary/40 transition-all"
                   >
                     <h4 className="font-bold text-primary mb-2">{item.label}</h4>
                     <p className="text-sm text-foreground/70">{item.desc}</p>
@@ -269,7 +269,7 @@ export default function ManagedServicesPage() {
                   key={b.label}
                   variants={itemVariants}
                   whileHover={{ y: -4 }}
-                  className="text-center bg-muted/30 border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
+                  className="text-center bg-white border border-border rounded-xl p-8 hover:border-primary/50 transition-all"
                 >
                   <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <b.icon className="w-7 h-7 text-primary" />

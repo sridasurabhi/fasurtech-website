@@ -55,7 +55,7 @@ export default function AIStrategyPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Target className="w-6 h-6 text-primary" />
@@ -68,7 +68,7 @@ export default function AIStrategyPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Brain className="w-6 h-6 text-primary" />
@@ -81,7 +81,7 @@ export default function AIStrategyPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-primary" />
@@ -94,7 +94,7 @@ export default function AIStrategyPage() {
 
             <motion.div
               whileHover={{ y: -5 }}
-              className="bg-background border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
+              className="bg-white border border-border rounded-xl p-6 hover:border-primary/50 transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                 <TrendingUp className="w-6 h-6 text-primary" />
@@ -119,7 +119,7 @@ export default function AIStrategyPage() {
             <div className="space-y-8">
               <motion.div
                 whileHover={{ x: 5 }}
-                className="flex gap-6 p-6 bg-muted/30 border border-border rounded-xl hover:border-primary/50 transition-all"
+                className="flex gap-6 p-6 bg-white border border-border rounded-xl hover:border-primary/50 transition-all"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-background font-bold text-xl">
                   1
@@ -134,7 +134,7 @@ export default function AIStrategyPage() {
 
               <motion.div
                 whileHover={{ x: 5 }}
-                className="flex gap-6 p-6 bg-muted/30 border border-border rounded-xl hover:border-primary/50 transition-all"
+                className="flex gap-6 p-6 bg-white border border-border rounded-xl hover:border-primary/50 transition-all"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-background font-bold text-xl">
                   2
@@ -149,7 +149,7 @@ export default function AIStrategyPage() {
 
               <motion.div
                 whileHover={{ x: 5 }}
-                className="flex gap-6 p-6 bg-muted/30 border border-border rounded-xl hover:border-primary/50 transition-all"
+                className="flex gap-6 p-6 bg-white border border-border rounded-xl hover:border-primary/50 transition-all"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-background font-bold text-xl">
                   3
@@ -164,7 +164,7 @@ export default function AIStrategyPage() {
 
               <motion.div
                 whileHover={{ x: 5 }}
-                className="flex gap-6 p-6 bg-muted/30 border border-border rounded-xl hover:border-primary/50 transition-all"
+                className="flex gap-6 p-6 bg-white border border-border rounded-xl hover:border-primary/50 transition-all"
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-background font-bold text-xl">
                   4
