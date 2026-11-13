@@ -1,0 +1,16 @@
+
+> fasurtech-website@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.52:3000
+
+✓ Starting...
+✓ Ready in 663ms
+ GET / 200 in 774ms (compile: 599ms, render: 175ms)
+ GET /contact 200 in 103ms (compile: 88ms, render: 14ms)
+ GET /ai-portfolio 200 in 90ms (compile: 80ms, render: 10ms)
+ GET /services/ai-strategy 200 in 354ms (compile: 319ms, render: 35ms)
+ GET /clients 200 in 438ms (compile: 428ms, render: 10ms)
+ GET /contact 200 in 30ms (compile: 13ms, render: 17ms)
